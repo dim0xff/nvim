@@ -35,9 +35,6 @@ return {
         path_display = { "truncate" },
         winblend = 0,
         set_env = { ["COLORTERM"] = "truecolor" }, -- default = nil,
-        mappings = {
-          n = { ["q"] = require("telescope.actions").close },
-        },
       },
 
       -- extensions_list = { "themes", "terms", "ui-select" },
