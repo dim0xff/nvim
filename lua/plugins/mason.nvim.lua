@@ -1,6 +1,7 @@
 return {
   "williamboman/mason.nvim",
   cmd = { "Mason", "MasonInstall", "MasonUpdate" },
+  -- MasonInstall dlv gofumpt goimports goimports-reviser golangci-lint golangci-lint-langserver gopls lua-language-server revive
   opts = {
     PATH = "skip",
 
