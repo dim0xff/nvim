@@ -1,5 +1,6 @@
 return {
-  'VidocqH/lsp-lens.nvim',
+  'dim0xff/lsp-lens.nvim',
+  branch = 'fix/position-right',
   init = function()
     local SymbolKind = vim.lsp.protocol.SymbolKind
 
